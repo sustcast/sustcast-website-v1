@@ -5,7 +5,8 @@ import About from './components/About/About';
 import Home from './components/Home/Home';
 import NavBar from './components/NavBar/NavBar';
 import Footer from "./components/Footer/Footer";
-import Player from './components/Player/Player'
+import Player from './components/Player/Player';
+import {StreamURL} from './components/Constants/Constants';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         </Switch>
         <Footer/>
       </Router>
-      <Player url = "http://103.84.159.230:8000/sustcast.ogg"/>
+      <Player url = {StreamURL}/>
     </div>
     
   );
