@@ -21,7 +21,6 @@ function App() {
       </Router>
       <Player url = {StreamURL}/>
     </div>
-    
   );
 }
 
