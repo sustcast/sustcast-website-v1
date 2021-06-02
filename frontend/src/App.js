@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from './components/About/About';
 import Home from './components/Home/Home';
 import NavBar from './components/NavBar/NavBar';
-import Footer from "./components/Footer/Footer"
-
+import Footer from "./components/Footer/Footer";
+import Player from './components/Player/Player'
 
 function App() {
   return (
@@ -18,7 +18,9 @@ function App() {
         </Switch>
         <Footer/>
       </Router>
+      <Player url = "http://103.84.159.230:8000/sustcast.ogg"/>
     </div>
+    
   );
 }
 
